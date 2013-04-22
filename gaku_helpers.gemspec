@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'gaku_helpers'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.summary     = 'Gaku View Helpers'
   s.description = ''
   s.required_ruby_version = '>= 1.8.7'
