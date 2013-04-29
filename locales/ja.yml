@@ -1,10 +1,10 @@
 ja:
   gaku_helpers:
-    cancel: "Cancel"
-    back: "Back"
+    cancel: "キャンセル"
+    back: "戻る"
     picture:
-      change: "Change picture"
-      upload: "Upload picture"
-    are_you_sure: "Are you sure?"
-    edit: "Edit"
+      change: "画像を変更"
+      upload: "画像をアップロード"
+    are_you_sure: "これで宜しいですか?"
+    edit: "編集"
 
