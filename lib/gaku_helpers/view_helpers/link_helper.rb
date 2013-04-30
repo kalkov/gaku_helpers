@@ -83,6 +83,15 @@ module GakuHelpers
         link_to name, resource, attributes
       end
 
+      def link_to_delete(resource, options = {})
+        name = ("<i class='icon-white icon-remove'></i>").html_safe
+        attributes = {
+          :method => :delete,
+          :class => 'btn btn-mini btn-danger delete-link'
+        }.merge(options)
+        link_to name, resource, attributes
+      end
+
       def ajax_link_to_delete(resource, options = {})
         name = ("<i class='icon-white icon-remove'></i>").html_safe
         attributes = {
