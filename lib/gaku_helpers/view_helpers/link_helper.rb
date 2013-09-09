@@ -196,7 +196,8 @@ module GakuHelpers
       def link_to_modal_cancel(options = {})
         name = t(:'gaku_helpers.cancel')
         attributes = {
-          :class => "span6 btn btn-warning cancel-link"
+          :class => "span6 btn btn-warning modal-cancel-link",
+          :'data-dismiss' => "modal"
         }.merge(options)
         link_to name, '#', attributes
       end
