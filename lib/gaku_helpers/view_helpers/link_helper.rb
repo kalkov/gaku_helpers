@@ -115,6 +115,7 @@ module GakuHelpers
         name = ("<i class='icon-white icon-remove'></i>").html_safe
         attributes = {
           :remote => true,
+          :method => :patch,
           :data => { :confirm => t(:'gaku_helpers.are_you_sure') },
           :class => 'btn btn-mini btn-danger delete-link'
         }.merge(options)
