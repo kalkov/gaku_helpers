@@ -49,7 +49,7 @@ module GakuHelpers
       def th_actions(num)
         size = case num
         when 1 then 40
-        when 2 then 62
+        when 2 then 67
         when 3 then 99
         else num
         end
