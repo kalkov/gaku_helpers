@@ -140,7 +140,7 @@ module GakuHelpers
         name = ("<i class='icon-white icon-pencil'></i>").html_safe
         attributes = {
           :remote => true,
-          :class => "mr-xs btn btn-mini btn-warning edit-link"
+          :class => "mr-xs btn btn-mini btn-warning js-edit-link"
         }.merge(options)
         link_to name, resource, attributes
       end
